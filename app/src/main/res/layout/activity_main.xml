@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/quote_background"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/quote_cardview"
+        android:layout_width="282dp"
+      android:layout_height="185dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        >
+
+        <TextView
+            android:id="@+id/quote_text"
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:text="My quote"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:textColor="#200"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/quote_author"
+            android:layout_width="282dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="70sp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:background="#edd74242"
+            android:textColor="#FFFF"
+            android:text="Author"/>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
